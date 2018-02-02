@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63462769201245B90050A410 /* DOHDefaultButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63462768201245B90050A410 /* DOHDefaultButton.m */; };
+		6346276C201245F30050A410 /* DOHButtonAttributeTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 6346276B201245F30050A410 /* DOHButtonAttributeTableview.m */; };
+		6346278A2012B6540050A410 /* DOHAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634627892012B6540050A410 /* DOHAnimationCell.m */; };
+		6346278D2012B6790050A410 /* DOHBodorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6346278C2012B6790050A410 /* DOHBodorCell.m */; };
+		634627902012B7170050A410 /* DOHShadowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6346278F2012B7170050A410 /* DOHShadowTableViewCell.m */; };
+		634627932012B8610050A410 /* DOHBaseSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634627922012B8610050A410 /* DOHBaseSettingCell.m */; };
+		634627962012B93F0050A410 /* DOHClickSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634627952012B93F0050A410 /* DOHClickSettingCell.m */; };
+		6856F3DC9DB3D07BF6146B9A /* libPods-DOProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4240EB801BCFDDF165C431 /* libPods-DOProgram.a */; };
+		EF04AF52201D774300E36D41 /* DOHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04AF51201D774300E36D41 /* DOHTabBarController.m */; };
+		EF04AF55201D9B6500E36D41 /* DOHHomeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04AF54201D9B6400E36D41 /* DOHHomeCollectionView.m */; };
+		EF04AF58201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04AF57201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m */; };
+		EFB056A4201DB312005C2803 /* DOHSoftwareFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056A3201DB312005C2803 /* DOHSoftwareFlowLayout.m */; };
+		EFB056AB201DCF9C005C2803 /* DOHDesignInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056AA201DCF9C005C2803 /* DOHDesignInterfaceViewController.m */; };
+		EFB056B1201DD112005C2803 /* DOHHomeSoftwareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056B0201DD112005C2803 /* DOHHomeSoftwareModel.m */; };
+		EFB056B7201EBE72005C2803 /* DOHDesignMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056B6201EBE72005C2803 /* DOHDesignMenuScrollView.m */; };
+		EFB056BB201EF621005C2803 /* DOHAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056BA201EF621005C2803 /* DOHAlertController.m */; };
+		EFB056BE201EFDB7005C2803 /* DOHComponentCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056BD201EFDB7005C2803 /* DOHComponentCollectionView.m */; };
+		EFB056C1201F1DF1005C2803 /* DOHComponentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056C0201F1DF1005C2803 /* DOHComponentCollectionViewCell.m */; };
+		EFB056C4201F2208005C2803 /* DOHComponentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056C3201F2208005C2803 /* DOHComponentModel.m */; };
+		EFC0C301200F1263006D4DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC0C300200F1263006D4DED /* Assets.xcassets */; };
+		EFC0C304200F1263006D4DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC0C302200F1263006D4DED /* LaunchScreen.storyboard */; };
+		EFC0C307200F1263006D4DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC0C306200F1263006D4DED /* main.m */; };
+		EFC0C311200F1263006D4DED /* DOProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC0C310200F1263006D4DED /* DOProgramTests.m */; };
+		EFC0C31C200F1263006D4DED /* DOProgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC0C31B200F1263006D4DED /* DOProgramUITests.m */; };
+		EFC0C333200F14CB006D4DED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC0C32B200F14CB006D4DED /* AppDelegate.m */; };
+		EFC0C336200F2B6E006D4DED /* DOHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC0C335200F2B6E006D4DED /* DOHHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFC0C30D200F1263006D4DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC0C2EC200F1263006D4DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC0C2F3200F1263006D4DED;
+			remoteInfo = DOProgram;
+		};
+		EFC0C318200F1263006D4DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC0C2EC200F1263006D4DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC0C2F3200F1263006D4DED;
+			remoteInfo = DOProgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63462766201244460050A410 /* GeneralData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralData.h; sourceTree = "<group>"; };
+		63462767201245B90050A410 /* DOHDefaultButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHDefaultButton.h; sourceTree = "<group>"; };
+		63462768201245B90050A410 /* DOHDefaultButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDefaultButton.m; sourceTree = "<group>"; };
+		6346276A201245F30050A410 /* DOHButtonAttributeTableview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHButtonAttributeTableview.h; sourceTree = "<group>"; };
+		6346276B201245F30050A410 /* DOHButtonAttributeTableview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHButtonAttributeTableview.m; sourceTree = "<group>"; };
+		634627882012B6540050A410 /* DOHAnimationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHAnimationCell.h; sourceTree = "<group>"; };
+		634627892012B6540050A410 /* DOHAnimationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHAnimationCell.m; sourceTree = "<group>"; };
+		6346278B2012B6790050A410 /* DOHBodorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHBodorCell.h; sourceTree = "<group>"; };
+		6346278C2012B6790050A410 /* DOHBodorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHBodorCell.m; sourceTree = "<group>"; };
+		6346278E2012B7170050A410 /* DOHShadowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHShadowTableViewCell.h; sourceTree = "<group>"; };
+		6346278F2012B7170050A410 /* DOHShadowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHShadowTableViewCell.m; sourceTree = "<group>"; };
+		634627912012B8610050A410 /* DOHBaseSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHBaseSettingCell.h; sourceTree = "<group>"; };
+		634627922012B8610050A410 /* DOHBaseSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHBaseSettingCell.m; sourceTree = "<group>"; };
+		634627942012B93F0050A410 /* DOHClickSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHClickSettingCell.h; sourceTree = "<group>"; };
+		634627952012B93F0050A410 /* DOHClickSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHClickSettingCell.m; sourceTree = "<group>"; };
+		710F29D8DBC42158DB6F9AAB /* Pods-DOProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOProgram/Pods-DOProgram.debug.xcconfig"; sourceTree = "<group>"; };
+		9B4240EB801BCFDDF165C431 /* libPods-DOProgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DOProgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF04AF50201D774300E36D41 /* DOHTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHTabBarController.h; sourceTree = "<group>"; };
+		EF04AF51201D774300E36D41 /* DOHTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHTabBarController.m; sourceTree = "<group>"; };
+		EF04AF53201D9B6400E36D41 /* DOHHomeCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHHomeCollectionView.h; sourceTree = "<group>"; };
+		EF04AF54201D9B6400E36D41 /* DOHHomeCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHHomeCollectionView.m; sourceTree = "<group>"; };
+		EF04AF56201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHSoftwareCollectionViewCell.h; sourceTree = "<group>"; };
+		EF04AF57201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHSoftwareCollectionViewCell.m; sourceTree = "<group>"; };
+		EFB056A1201DB02B005C2803 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EFB056A2201DB312005C2803 /* DOHSoftwareFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHSoftwareFlowLayout.h; sourceTree = "<group>"; };
+		EFB056A3201DB312005C2803 /* DOHSoftwareFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHSoftwareFlowLayout.m; sourceTree = "<group>"; };
+		EFB056A9201DCF9C005C2803 /* DOHDesignInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHDesignInterfaceViewController.h; sourceTree = "<group>"; };
+		EFB056AA201DCF9C005C2803 /* DOHDesignInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDesignInterfaceViewController.m; sourceTree = "<group>"; };
+		EFB056AF201DD112005C2803 /* DOHHomeSoftwareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHHomeSoftwareModel.h; sourceTree = "<group>"; };
+		EFB056B0201DD112005C2803 /* DOHHomeSoftwareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHHomeSoftwareModel.m; sourceTree = "<group>"; };
+		EFB056B5201EBE72005C2803 /* DOHDesignMenuScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHDesignMenuScrollView.h; sourceTree = "<group>"; };
+		EFB056B6201EBE72005C2803 /* DOHDesignMenuScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDesignMenuScrollView.m; sourceTree = "<group>"; };
+		EFB056B9201EF621005C2803 /* DOHAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOHAlertController.h; sourceTree = "<group>"; };
+		EFB056BA201EF621005C2803 /* DOHAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOHAlertController.m; sourceTree = "<group>"; };
+		EFB056BC201EFDB7005C2803 /* DOHComponentCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHComponentCollectionView.h; sourceTree = "<group>"; };
+		EFB056BD201EFDB7005C2803 /* DOHComponentCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHComponentCollectionView.m; sourceTree = "<group>"; };
+		EFB056BF201F1DF1005C2803 /* DOHComponentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHComponentCollectionViewCell.h; sourceTree = "<group>"; };
+		EFB056C0201F1DF1005C2803 /* DOHComponentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHComponentCollectionViewCell.m; sourceTree = "<group>"; };
+		EFB056C2201F2208005C2803 /* DOHComponentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHComponentModel.h; sourceTree = "<group>"; };
+		EFB056C3201F2208005C2803 /* DOHComponentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHComponentModel.m; sourceTree = "<group>"; };
+		EFC0C2F4200F1263006D4DED /* DOProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC0C300200F1263006D4DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC0C303200F1263006D4DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC0C305200F1263006D4DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC0C306200F1263006D4DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFC0C30C200F1263006D4DED /* DOProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC0C310200F1263006D4DED /* DOProgramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOProgramTests.m; sourceTree = "<group>"; };
+		EFC0C312200F1263006D4DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC0C317200F1263006D4DED /* DOProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC0C31B200F1263006D4DED /* DOProgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOProgramUITests.m; sourceTree = "<group>"; };
+		EFC0C31D200F1263006D4DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC0C32A200F14CB006D4DED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFC0C32B200F14CB006D4DED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFC0C334200F2B6E006D4DED /* DOHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHHomeViewController.h; sourceTree = "<group>"; };
+		EFC0C335200F2B6E006D4DED /* DOHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHHomeViewController.m; sourceTree = "<group>"; };
+		FA7718E2535399D60FA43A43 /* Pods-DOProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOProgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOProgram/Pods-DOProgram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC0C2F1200F1263006D4DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856F3DC9DB3D07BF6146B9A /* libPods-DOProgram.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC0C309200F1263006D4DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC0C314200F1263006D4DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F855FB3179762C4515B269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				710F29D8DBC42158DB6F9AAB /* Pods-DOProgram.debug.xcconfig */,
+				FA7718E2535399D60FA43A43 /* Pods-DOProgram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D7047B268D30F34BE7FB3FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B4240EB801BCFDDF165C431 /* libPods-DOProgram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6346275C201243DA0050A410 /* CustomVIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomVIew;
+			sourceTree = "<group>";
+		};
+		6346275D201243DA0050A410 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				6346275E201243DA0050A410 /* TableView */,
+				6346275F201243DA0050A410 /* TextView */,
+				63462760201243DA0050A410 /* ImageView */,
+				63462761201243DA0050A410 /* TextFiled */,
+				63462762201243DA0050A410 /* Label */,
+				63462763201243DA0050A410 /* Slider */,
+				63462764201243DA0050A410 /* Button */,
+				63462765201243DA0050A410 /* View */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		6346275E201243DA0050A410 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		6346275F201243DA0050A410 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		63462760201243DA0050A410 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		63462761201243DA0050A410 /* TextFiled */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextFiled;
+			sourceTree = "<group>";
+		};
+		63462762201243DA0050A410 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		63462763201243DA0050A410 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		63462764201243DA0050A410 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				63462767201245B90050A410 /* DOHDefaultButton.h */,
+				63462768201245B90050A410 /* DOHDefaultButton.m */,
+				6346276A201245F30050A410 /* DOHButtonAttributeTableview.h */,
+				6346276B201245F30050A410 /* DOHButtonAttributeTableview.m */,
+				634627882012B6540050A410 /* DOHAnimationCell.h */,
+				634627892012B6540050A410 /* DOHAnimationCell.m */,
+				6346278B2012B6790050A410 /* DOHBodorCell.h */,
+				6346278C2012B6790050A410 /* DOHBodorCell.m */,
+				6346278E2012B7170050A410 /* DOHShadowTableViewCell.h */,
+				6346278F2012B7170050A410 /* DOHShadowTableViewCell.m */,
+				634627912012B8610050A410 /* DOHBaseSettingCell.h */,
+				634627922012B8610050A410 /* DOHBaseSettingCell.m */,
+				634627942012B93F0050A410 /* DOHClickSettingCell.h */,
+				634627952012B93F0050A410 /* DOHClickSettingCell.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		63462765201243DA0050A410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFB056A5201DCF49005C2803 /* DOHDesignInterface */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056A6201DCF49005C2803 /* model */,
+				EFB056A7201DCF49005C2803 /* view */,
+				EFB056A8201DCF49005C2803 /* controllers */,
+			);
+			name = DOHDesignInterface;
+			path = DOProgram/DOHContent/DOHDesignInterface;
+			sourceTree = SOURCE_ROOT;
+		};
+		EFB056A6201DCF49005C2803 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056C2201F2208005C2803 /* DOHComponentModel.h */,
+				EFB056C3201F2208005C2803 /* DOHComponentModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EFB056A7201DCF49005C2803 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056B5201EBE72005C2803 /* DOHDesignMenuScrollView.h */,
+				EFB056B6201EBE72005C2803 /* DOHDesignMenuScrollView.m */,
+				EFB056BC201EFDB7005C2803 /* DOHComponentCollectionView.h */,
+				EFB056BD201EFDB7005C2803 /* DOHComponentCollectionView.m */,
+				EFB056BF201F1DF1005C2803 /* DOHComponentCollectionViewCell.h */,
+				EFB056C0201F1DF1005C2803 /* DOHComponentCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EFB056A8201DCF49005C2803 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056A9201DCF9C005C2803 /* DOHDesignInterfaceViewController.h */,
+				EFB056AA201DCF9C005C2803 /* DOHDesignInterfaceViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		EFB056B8201EF60B005C2803 /* DOHAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056B9201EF621005C2803 /* DOHAlertController.h */,
+				EFB056BA201EF621005C2803 /* DOHAlertController.m */,
+			);
+			path = DOHAlertViewController;
+			sourceTree = "<group>";
+		};
+		EFC0C2EB200F1263006D4DED = {
+			isa = PBXGroup;
+			children = (
+				EFC0C2F6200F1263006D4DED /* DOProgram */,
+				EFC0C30F200F1263006D4DED /* DOProgramTests */,
+				EFC0C31A200F1263006D4DED /* DOProgramUITests */,
+				EFC0C2F5200F1263006D4DED /* Products */,
+				17F855FB3179762C4515B269 /* Pods */,
+				2D7047B268D30F34BE7FB3FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC0C2F5200F1263006D4DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0C2F4200F1263006D4DED /* DOProgram.app */,
+				EFC0C30C200F1263006D4DED /* DOProgramTests.xctest */,
+				EFC0C317200F1263006D4DED /* DOProgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC0C2F6200F1263006D4DED /* DOProgram */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0C32D200F14CB006D4DED /* DOHContent */,
+				EFC0C329200F14CB006D4DED /* other */,
+				EFC0C32C200F14CB006D4DED /* vender */,
+				EFC0C300200F1263006D4DED /* Assets.xcassets */,
+				EFC0C302200F1263006D4DED /* LaunchScreen.storyboard */,
+				EFC0C305200F1263006D4DED /* Info.plist */,
+				EFC0C306200F1263006D4DED /* main.m */,
+			);
+			path = DOProgram;
+			sourceTree = "<group>";
+		};
+		EFC0C30F200F1263006D4DED /* DOProgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0C310200F1263006D4DED /* DOProgramTests.m */,
+				EFC0C312200F1263006D4DED /* Info.plist */,
+			);
+			path = DOProgramTests;
+			sourceTree = "<group>";
+		};
+		EFC0C31A200F1263006D4DED /* DOProgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0C31B200F1263006D4DED /* DOProgramUITests.m */,
+				EFC0C31D200F1263006D4DED /* Info.plist */,
+			);
+			path = DOProgramUITests;
+			sourceTree = "<group>";
+		};
+		EFC0C329200F14CB006D4DED /* other */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0C32A200F14CB006D4DED /* AppDelegate.h */,
+				EFC0C32B200F14CB006D4DED /* AppDelegate.m */,
+				63462766201244460050A410 /* GeneralData.h */,
+				EF04AF50201D774300E36D41 /* DOHTabBarController.h */,
+				EF04AF51201D774300E36D41 /* DOHTabBarController.m */,
+				EFB056A1201DB02B005C2803 /* PrefixHeader.pch */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		EFC0C32C200F14CB006D4DED /* vender */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056B8201EF60B005C2803 /* DOHAlertViewController */,
+			);
+			path = vender;
+			sourceTree = "<group>";
+		};
+		EFC0C32D200F14CB006D4DED /* DOHContent */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056A5201DCF49005C2803 /* DOHDesignInterface */,
+				EFC0C32E200F14CB006D4DED /* DOHComView */,
+				EFC0C32F200F14CB006D4DED /* DOHHomeViewController */,
+			);
+			path = DOHContent;
+			sourceTree = "<group>";
+		};
+		EFC0C32E200F14CB006D4DED /* DOHComView */ = {
+			isa = PBXGroup;
+			children = (
+				6346275C201243DA0050A410 /* CustomVIew */,
+				6346275D201243DA0050A410 /* Element */,
+			);
+			path = DOHComView;
+			sourceTree = "<group>";
+		};
+		EFC0C32F200F14CB006D4DED /* DOHHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0C330200F14CB006D4DED /* model */,
+				EFC0C331200F14CB006D4DED /* view */,
+				EFC0C332200F14CB006D4DED /* controllers */,
+			);
+			path = DOHHomeViewController;
+			sourceTree = "<group>";
+		};
+		EFC0C330200F14CB006D4DED /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EFB056AF201DD112005C2803 /* DOHHomeSoftwareModel.h */,
+				EFB056B0201DD112005C2803 /* DOHHomeSoftwareModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EFC0C331200F14CB006D4DED /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EF04AF53201D9B6400E36D41 /* DOHHomeCollectionView.h */,
+				EF04AF54201D9B6400E36D41 /* DOHHomeCollectionView.m */,
+				EF04AF56201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.h */,
+				EF04AF57201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m */,
+				EFB056A2201DB312005C2803 /* DOHSoftwareFlowLayout.h */,
+				EFB056A3201DB312005C2803 /* DOHSoftwareFlowLayout.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EFC0C332200F14CB006D4DED /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0C334200F2B6E006D4DED /* DOHHomeViewController.h */,
+				EFC0C335200F2B6E006D4DED /* DOHHomeViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC0C2F3200F1263006D4DED /* DOProgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC0C320200F1263006D4DED /* Build configuration list for PBXNativeTarget "DOProgram" */;
+			buildPhases = (
+				C6C882B067610F29882B8BEB /* [CP] Check Pods Manifest.lock */,
+				EFC0C2F0200F1263006D4DED /* Sources */,
+				EFC0C2F1200F1263006D4DED /* Frameworks */,
+				EFC0C2F2200F1263006D4DED /* Resources */,
+				E7036B75911A824627C6990F /* [CP] Embed Pods Frameworks */,
+				EF913CFCA69580F68D09620B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DOProgram;
+			productName = DOProgram;
+			productReference = EFC0C2F4200F1263006D4DED /* DOProgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC0C30B200F1263006D4DED /* DOProgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC0C323200F1264006D4DED /* Build configuration list for PBXNativeTarget "DOProgramTests" */;
+			buildPhases = (
+				EFC0C308200F1263006D4DED /* Sources */,
+				EFC0C309200F1263006D4DED /* Frameworks */,
+				EFC0C30A200F1263006D4DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC0C30E200F1263006D4DED /* PBXTargetDependency */,
+			);
+			name = DOProgramTests;
+			productName = DOProgramTests;
+			productReference = EFC0C30C200F1263006D4DED /* DOProgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFC0C316200F1263006D4DED /* DOProgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC0C326200F1264006D4DED /* Build configuration list for PBXNativeTarget "DOProgramUITests" */;
+			buildPhases = (
+				EFC0C313200F1263006D4DED /* Sources */,
+				EFC0C314200F1263006D4DED /* Frameworks */,
+				EFC0C315200F1263006D4DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC0C319200F1263006D4DED /* PBXTargetDependency */,
+			);
+			name = DOProgramUITests;
+			productName = DOProgramUITests;
+			productReference = EFC0C317200F1263006D4DED /* DOProgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC0C2EC200F1263006D4DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DOH;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Dolion.Hou;
+				TargetAttributes = {
+					EFC0C2F3200F1263006D4DED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EFC0C30B200F1263006D4DED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFC0C2F3200F1263006D4DED;
+					};
+					EFC0C316200F1263006D4DED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFC0C2F3200F1263006D4DED;
+					};
+				};
+			};
+			buildConfigurationList = EFC0C2EF200F1263006D4DED /* Build configuration list for PBXProject "DOProgram" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC0C2EB200F1263006D4DED;
+			productRefGroup = EFC0C2F5200F1263006D4DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC0C2F3200F1263006D4DED /* DOProgram */,
+				EFC0C30B200F1263006D4DED /* DOProgramTests */,
+				EFC0C316200F1263006D4DED /* DOProgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC0C2F2200F1263006D4DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC0C304200F1263006D4DED /* LaunchScreen.storyboard in Resources */,
+				EFC0C301200F1263006D4DED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC0C30A200F1263006D4DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC0C315200F1263006D4DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6C882B067610F29882B8BEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DOProgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7036B75911A824627C6990F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DOProgram/Pods-DOProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF913CFCA69580F68D09620B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DOProgram/Pods-DOProgram-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DOProgram/Pods-DOProgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC0C2F0200F1263006D4DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634627902012B7170050A410 /* DOHShadowTableViewCell.m in Sources */,
+				EFB056B1201DD112005C2803 /* DOHHomeSoftwareModel.m in Sources */,
+				634627962012B93F0050A410 /* DOHClickSettingCell.m in Sources */,
+				EF04AF52201D774300E36D41 /* DOHTabBarController.m in Sources */,
+				EFC0C336200F2B6E006D4DED /* DOHHomeViewController.m in Sources */,
+				6346276C201245F30050A410 /* DOHButtonAttributeTableview.m in Sources */,
+				EF04AF55201D9B6500E36D41 /* DOHHomeCollectionView.m in Sources */,
+				634627932012B8610050A410 /* DOHBaseSettingCell.m in Sources */,
+				EFB056C4201F2208005C2803 /* DOHComponentModel.m in Sources */,
+				EFB056C1201F1DF1005C2803 /* DOHComponentCollectionViewCell.m in Sources */,
+				63462769201245B90050A410 /* DOHDefaultButton.m in Sources */,
+				EFB056B7201EBE72005C2803 /* DOHDesignMenuScrollView.m in Sources */,
+				EFC0C307200F1263006D4DED /* main.m in Sources */,
+				EF04AF58201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m in Sources */,
+				EFB056A4201DB312005C2803 /* DOHSoftwareFlowLayout.m in Sources */,
+				6346278D2012B6790050A410 /* DOHBodorCell.m in Sources */,
+				EFC0C333200F14CB006D4DED /* AppDelegate.m in Sources */,
+				EFB056BE201EFDB7005C2803 /* DOHComponentCollectionView.m in Sources */,
+				6346278A2012B6540050A410 /* DOHAnimationCell.m in Sources */,
+				EFB056BB201EF621005C2803 /* DOHAlertController.m in Sources */,
+				EFB056AB201DCF9C005C2803 /* DOHDesignInterfaceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC0C308200F1263006D4DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC0C311200F1263006D4DED /* DOProgramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC0C313200F1263006D4DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC0C31C200F1263006D4DED /* DOProgramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC0C30E200F1263006D4DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC0C2F3200F1263006D4DED /* DOProgram */;
+			targetProxy = EFC0C30D200F1263006D4DED /* PBXContainerItemProxy */;
+		};
+		EFC0C319200F1263006D4DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC0C2F3200F1263006D4DED /* DOProgram */;
+			targetProxy = EFC0C318200F1263006D4DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFC0C302200F1263006D4DED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC0C303200F1263006D4DED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC0C31E200F1263006D4DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFC0C31F200F1263006D4DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC0C321200F1263006D4DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710F29D8DBC42158DB6F9AAB /* Pods-DOProgram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ABCCHLS73;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DOProgram/other/PrefixHeader.pch";
+				INFOPLIST_FILE = DOProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOProgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC0C322200F1263006D4DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7718E2535399D60FA43A43 /* Pods-DOProgram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ABCCHLS73;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DOProgram/other/PrefixHeader.pch";
+				INFOPLIST_FILE = DOProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOProgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFC0C324200F1264006D4DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUT2VV23X9;
+				INFOPLIST_FILE = DOProgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOProgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOProgram.app/DOProgram";
+			};
+			name = Debug;
+		};
+		EFC0C325200F1264006D4DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUT2VV23X9;
+				INFOPLIST_FILE = DOProgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOProgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOProgram.app/DOProgram";
+			};
+			name = Release;
+		};
+		EFC0C327200F1264006D4DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUT2VV23X9;
+				INFOPLIST_FILE = DOProgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOProgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DOProgram;
+			};
+			name = Debug;
+		};
+		EFC0C328200F1264006D4DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUT2VV23X9;
+				INFOPLIST_FILE = DOProgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOProgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DOProgram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC0C2EF200F1263006D4DED /* Build configuration list for PBXProject "DOProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC0C31E200F1263006D4DED /* Debug */,
+				EFC0C31F200F1263006D4DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC0C320200F1263006D4DED /* Build configuration list for PBXNativeTarget "DOProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC0C321200F1263006D4DED /* Debug */,
+				EFC0C322200F1263006D4DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC0C323200F1264006D4DED /* Build configuration list for PBXNativeTarget "DOProgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC0C324200F1264006D4DED /* Debug */,
+				EFC0C325200F1264006D4DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC0C326200F1264006D4DED /* Build configuration list for PBXNativeTarget "DOProgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC0C327200F1264006D4DED /* Debug */,
+				EFC0C328200F1264006D4DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC0C2EC200F1263006D4DED /* Project object */;
+}
