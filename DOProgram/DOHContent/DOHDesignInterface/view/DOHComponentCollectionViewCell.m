@@ -4,7 +4,7 @@
 //
 //  Created by 彩虹蜗牛 on 2018/1/29.
 //  Copyright © 2018年 Dolion.Hou. All rights reserved.
-//
+//DOH-元素控件cell
 
 #define componentImageViewFrame CGRectMake(0, 10, 40, 40)
 #define componentNameLabelFrame CGRectMake(0,80 - 30,40,25)

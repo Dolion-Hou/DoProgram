@@ -4,7 +4,7 @@
 //
 //  Created by Dolion.Hou on 2018/1/19.
 //  Copyright © 2018年 Dolion.Hou. All rights reserved.
-//
+//DOH-宏定义
 
 #ifndef GeneralData__h
 #define GeneralData__h

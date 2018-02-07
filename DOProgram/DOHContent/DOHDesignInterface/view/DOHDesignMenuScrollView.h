@@ -10,6 +10,7 @@ typedef NS_ENUM (NSInteger , menuButtonType) {
     moreMenuType,//更多菜单
     saveButtonType,//保存按钮
     backButtonType,//撤销按钮
+    existButtonType,//退出编辑
     otherButtonType,//其他待定按钮
 };
 

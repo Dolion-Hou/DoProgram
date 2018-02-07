@@ -18,6 +18,9 @@
 		EF04AF52201D774300E36D41 /* DOHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04AF51201D774300E36D41 /* DOHTabBarController.m */; };
 		EF04AF55201D9B6500E36D41 /* DOHHomeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04AF54201D9B6400E36D41 /* DOHHomeCollectionView.m */; };
 		EF04AF58201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04AF57201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m */; };
+		EF97C95020242F9400A5BF63 /* DOHComponentAttributesMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97C94F20242F9400A5BF63 /* DOHComponentAttributesMenuTableView.m */; };
+		EF97C953202835AA00A5BF63 /* DOHDesignAttributeBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97C952202835AA00A5BF63 /* DOHDesignAttributeBaseView.m */; };
+		EF97C956202835C500A5BF63 /* DOHDesignAttributeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97C955202835C500A5BF63 /* DOHDesignAttributeContentView.m */; };
 		EFB056A4201DB312005C2803 /* DOHSoftwareFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056A3201DB312005C2803 /* DOHSoftwareFlowLayout.m */; };
 		EFB056AB201DCF9C005C2803 /* DOHDesignInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056AA201DCF9C005C2803 /* DOHDesignInterfaceViewController.m */; };
 		EFB056B1201DD112005C2803 /* DOHHomeSoftwareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056B0201DD112005C2803 /* DOHHomeSoftwareModel.m */; };
@@ -76,6 +79,12 @@
 		EF04AF54201D9B6400E36D41 /* DOHHomeCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHHomeCollectionView.m; sourceTree = "<group>"; };
 		EF04AF56201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHSoftwareCollectionViewCell.h; sourceTree = "<group>"; };
 		EF04AF57201D9E6B00E36D41 /* DOHSoftwareCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHSoftwareCollectionViewCell.m; sourceTree = "<group>"; };
+		EF97C94E20242F9400A5BF63 /* DOHComponentAttributesMenuTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHComponentAttributesMenuTableView.h; sourceTree = "<group>"; };
+		EF97C94F20242F9400A5BF63 /* DOHComponentAttributesMenuTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHComponentAttributesMenuTableView.m; sourceTree = "<group>"; };
+		EF97C951202835AA00A5BF63 /* DOHDesignAttributeBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHDesignAttributeBaseView.h; sourceTree = "<group>"; };
+		EF97C952202835AA00A5BF63 /* DOHDesignAttributeBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDesignAttributeBaseView.m; sourceTree = "<group>"; };
+		EF97C954202835C500A5BF63 /* DOHDesignAttributeContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHDesignAttributeContentView.h; sourceTree = "<group>"; };
+		EF97C955202835C500A5BF63 /* DOHDesignAttributeContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDesignAttributeContentView.m; sourceTree = "<group>"; };
 		EFB056A1201DB02B005C2803 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EFB056A2201DB312005C2803 /* DOHSoftwareFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHSoftwareFlowLayout.h; sourceTree = "<group>"; };
 		EFB056A3201DB312005C2803 /* DOHSoftwareFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHSoftwareFlowLayout.m; sourceTree = "<group>"; };
@@ -275,6 +284,12 @@
 				EFB056BD201EFDB7005C2803 /* DOHComponentCollectionView.m */,
 				EFB056BF201F1DF1005C2803 /* DOHComponentCollectionViewCell.h */,
 				EFB056C0201F1DF1005C2803 /* DOHComponentCollectionViewCell.m */,
+				EF97C94E20242F9400A5BF63 /* DOHComponentAttributesMenuTableView.h */,
+				EF97C94F20242F9400A5BF63 /* DOHComponentAttributesMenuTableView.m */,
+				EF97C951202835AA00A5BF63 /* DOHDesignAttributeBaseView.h */,
+				EF97C952202835AA00A5BF63 /* DOHDesignAttributeBaseView.m */,
+				EF97C954202835C500A5BF63 /* DOHDesignAttributeContentView.h */,
+				EF97C955202835C500A5BF63 /* DOHDesignAttributeContentView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -625,12 +640,14 @@
 			files = (
 				634627902012B7170050A410 /* DOHShadowTableViewCell.m in Sources */,
 				EFB056B1201DD112005C2803 /* DOHHomeSoftwareModel.m in Sources */,
+				EF97C953202835AA00A5BF63 /* DOHDesignAttributeBaseView.m in Sources */,
 				634627962012B93F0050A410 /* DOHClickSettingCell.m in Sources */,
 				EF04AF52201D774300E36D41 /* DOHTabBarController.m in Sources */,
 				EFC0C336200F2B6E006D4DED /* DOHHomeViewController.m in Sources */,
 				6346276C201245F30050A410 /* DOHButtonAttributeTableview.m in Sources */,
 				EF04AF55201D9B6500E36D41 /* DOHHomeCollectionView.m in Sources */,
 				634627932012B8610050A410 /* DOHBaseSettingCell.m in Sources */,
+				EF97C956202835C500A5BF63 /* DOHDesignAttributeContentView.m in Sources */,
 				EFB056C4201F2208005C2803 /* DOHComponentModel.m in Sources */,
 				EFB056C1201F1DF1005C2803 /* DOHComponentCollectionViewCell.m in Sources */,
 				63462769201245B90050A410 /* DOHDefaultButton.m in Sources */,
@@ -640,6 +657,7 @@
 				EFB056A4201DB312005C2803 /* DOHSoftwareFlowLayout.m in Sources */,
 				6346278D2012B6790050A410 /* DOHBodorCell.m in Sources */,
 				EFC0C333200F14CB006D4DED /* AppDelegate.m in Sources */,
+				EF97C95020242F9400A5BF63 /* DOHComponentAttributesMenuTableView.m in Sources */,
 				EFB056BE201EFDB7005C2803 /* DOHComponentCollectionView.m in Sources */,
 				6346278A2012B6540050A410 /* DOHAnimationCell.m in Sources */,
 				EFB056BB201EF621005C2803 /* DOHAlertController.m in Sources */,

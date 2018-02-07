@@ -13,7 +13,9 @@
 #import "DOHComponentCollectionView.h"//控件列表
 #import "DOHButtonAttributeTableview.h"//button属性tableview
 #import "DOHDefaultButton.h"//button默认Button
-
+#import "DOHComponentAttributesMenuTableView.h"//属性tableview
+#import "DOHDesignAttributeBaseView.h"//基本属性设置View
+#import "DOHDesignAttributeContentView.h"//内容设置View
 
 
 @interface DOHDesignInterfaceViewController ()<DOHAlertControllerDelegate>
@@ -25,6 +27,12 @@
 @property (nonatomic, strong) DOHDefaultButton *defaultButton;
 //button的属性列表
 @property (nonatomic, strong) DOHButtonAttributeTableview *attributeTableView;
+//属性tableview
+@property (nonatomic, strong) DOHComponentAttributesMenuTableView *attributeContentTableView;
+//基本属性设置View
+@property (nonatomic, strong) DOHDesignAttributeBaseView *attributeBaseView;
+//内容设置View
+@property (nonatomic, strong) DOHDesignAttributeContentView *attributeContentView;
 @end
 
 @implementation DOHDesignInterfaceViewController{
@@ -56,6 +64,8 @@
     [self.view addSubview:_componentCollectionView];
     
     [self selectedComponent];
+    
+//
 }
 
 - (void)setSubviewsConfigure{
@@ -85,6 +95,14 @@
             case backButtonType:
                 
                 break;
+            case existButtonType:{
+                DOHAlertController *alerViewController = [[DOHAlertController alloc] initWithTitle:@"退出编辑" message:@"您确认退出编辑吗，此操作无保存！谨慎操作" style:UIAlertControllerStyleAlert];
+                [weakSelf presentViewController:alerViewController animated:YES completion:nil];
+                alerViewController.actionStyle = DOHAllActionStyle;
+                alerViewController.delegate = weakSelf;
+                alerViewController.isMaskToBounds = YES;
+            }
+                break;
                 
             default:
                 break;
@@ -101,22 +119,18 @@
                 weakSelf.defaultButton = [[DOHDefaultButton alloc] init];
                 [weakSelf.view addSubview:weakSelf.defaultButton];
                 
-                weakSelf.attributeTableView = [[DOHButtonAttributeTableview alloc] initWithFrame:CGRectMake(95, 94,mainScreenWith - 95-30 , 0) style:UITableViewStylePlain];
-                [weakSelf.view addSubview:weakSelf.attributeTableView];
+                weakSelf.attributeContentTableView = [[DOHComponentAttributesMenuTableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+                [weakSelf.view addSubview:weakSelf.attributeContentTableView];
+                
+                [weakSelf selcetAttributeSetting];
                 
                 [UIView animateWithDuration:0.5 animations:^{
                     weakSelf.defaultButton.alpha = 1;
                 }completion:^(BOOL finished) {
                     [UIView animateWithDuration:0.5 animations:^{
-                        weakSelf.attributeTableView.frame = CGRectMake(95, 94,mainScreenWith - 95-30 , mainScreenHeight - 94-30);
+                        [weakSelf.attributeContentTableView showView];
                     }];
                 }];
-//
-//                    [attributeTableView removeFromSuperview];
-//                    [defaultButton removeFromSuperview];
-//                    attributeTableView = nil;
-//                    defaultButton = nil;
-//                    [self addSubviewsButton];
             }
                 break;
             case 1:
@@ -143,6 +157,40 @@
     };
 }
 
+- (void)selcetAttributeSetting{
+    __weak typeof (self)weakSelf = self;
+    _attributeContentTableView.DOHAttributeBlock = ^(NSInteger clickType) {
+        switch (clickType) {
+            case baseAttributeType:
+                weakSelf.attributeBaseView = [[DOHDesignAttributeBaseView alloc] initWithFrame:CGRectZero];
+                [weakSelf.view addSubview:weakSelf.attributeBaseView];
+                [weakSelf.attributeContentTableView hiddenView];
+                weakSelf.attributeBaseView.btn = weakSelf.defaultButton;
+                [weakSelf saveButtonBeClicked];
+                break;
+            case contentAttributeType:
+            {
+                weakSelf.attributeContentView = [[DOHDesignAttributeContentView alloc] initWithFrame:CGRectZero];
+                [weakSelf.view addSubview:weakSelf.attributeContentView];
+                weakSelf.attributeContentView.btn = weakSelf.defaultButton;
+                [weakSelf.attributeContentTableView hiddenView];
+                [weakSelf saveButtonBeClicked];
+            }
+                break;
+            case targetAttributeType:
+                
+                break;
+            case datasourceAttributeType:
+                
+                break;
+                
+            default:
+                break;
+        }
+    };
+}
+
+
 - (void)addSubviewsButton{
     
 }
@@ -153,6 +201,13 @@
 
 - (void)sureAction {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)saveButtonBeClicked{
+    __weak typeof (self)weakSelf = self;
+    self.attributeBaseView.DOHAttributeBaseViewSaveButtonBlock = ^{
+        [weakSelf.attributeContentTableView showView];
+    };
 }
 
 - (void)didReceiveMemoryWarning {

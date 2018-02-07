@@ -4,9 +4,9 @@
 //
 //  Created by 彩虹蜗牛 on 2018/1/29.
 //  Copyright © 2018年 Dolion.Hou. All rights reserved.
-//
+//DOH-设计面板菜单
 
-#define buttonImages @[@"DOH_design_menu",@"DOH_design_save",@"DOH_design_back",@"DOH_design_other",@"DOH_design_other"]
+#define buttonImages @[@"DOH_design_menu",@"DOH_design_save",@"DOH_design_back",@"DOH_design_menu_exist",@"DOH_design_other"]
 
 #import "DOHDesignMenuScrollView.h"
 
