@@ -11,6 +11,9 @@
 @interface DOHDesignAttributeContentView : UIScrollView
 //要操作的对象
 @property (nonatomic, strong) UIButton *btn;
+//保存按钮点击事件
+@property (nonatomic) void(^DOHContentSaveButtonBlock) (void);
+
 
 - (instancetype)initWithFrame:(CGRect)frame;
 

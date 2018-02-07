@@ -208,6 +208,10 @@
     self.attributeBaseView.DOHAttributeBaseViewSaveButtonBlock = ^{
         [weakSelf.attributeContentTableView showView];
     };
+    
+    self.attributeContentView.DOHContentSaveButtonBlock = ^{
+        [weakSelf.attributeContentTableView showView];
+    };
 }
 
 - (void)didReceiveMemoryWarning {
