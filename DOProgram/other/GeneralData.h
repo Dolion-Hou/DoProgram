@@ -15,5 +15,8 @@
 //创建应用的下标
 #define creatSoftwareIndex 55555
 
+//设计页面 内容设置的 图片填充模式
+#define imaegViewModelsArray @[@"UIViewContentModeScaleToFill",@"UIViewContentModeScaleAspectFit",@"UIViewContentModeScaleAspectFill",@"UIViewContentModeRedraw",@"UIViewContentModeCenter",@"UIViewContentModeTop",@"UIViewContentModeBottom",@"UIViewContentModeLeft",@"UIViewContentModeRight",@"UIViewContentModeTopLeft",@"UIViewContentModeTopRight",@"UIViewContentModeBottomLeft",@"UIViewContentModeBottomRight"]
+
 #endif /* GeneralData__h */
 

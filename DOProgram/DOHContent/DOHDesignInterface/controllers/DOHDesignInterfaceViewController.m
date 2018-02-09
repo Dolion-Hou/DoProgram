@@ -211,6 +211,9 @@
     
     self.attributeContentView.DOHContentSaveButtonBlock = ^{
         [weakSelf.attributeContentTableView showView];
+        UIButton *temporaryButton = weakSelf.defaultButton;
+        [weakSelf.view addSubview:temporaryButton];
+        [weakSelf.attributeContentTableView removeFromSuperview];
     };
 }
 

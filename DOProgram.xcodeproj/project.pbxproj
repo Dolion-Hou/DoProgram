@@ -21,6 +21,7 @@
 		EF97C95020242F9400A5BF63 /* DOHComponentAttributesMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97C94F20242F9400A5BF63 /* DOHComponentAttributesMenuTableView.m */; };
 		EF97C953202835AA00A5BF63 /* DOHDesignAttributeBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97C952202835AA00A5BF63 /* DOHDesignAttributeBaseView.m */; };
 		EF97C956202835C500A5BF63 /* DOHDesignAttributeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97C955202835C500A5BF63 /* DOHDesignAttributeContentView.m */; };
+		EFA2F213202D3F650036CBE4 /* DOHDesignAttributeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2F212202D3F650036CBE4 /* DOHDesignAttributeContentTableView.m */; };
 		EFB056A4201DB312005C2803 /* DOHSoftwareFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056A3201DB312005C2803 /* DOHSoftwareFlowLayout.m */; };
 		EFB056AB201DCF9C005C2803 /* DOHDesignInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056AA201DCF9C005C2803 /* DOHDesignInterfaceViewController.m */; };
 		EFB056B1201DD112005C2803 /* DOHHomeSoftwareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB056B0201DD112005C2803 /* DOHHomeSoftwareModel.m */; };
@@ -85,6 +86,8 @@
 		EF97C952202835AA00A5BF63 /* DOHDesignAttributeBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDesignAttributeBaseView.m; sourceTree = "<group>"; };
 		EF97C954202835C500A5BF63 /* DOHDesignAttributeContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHDesignAttributeContentView.h; sourceTree = "<group>"; };
 		EF97C955202835C500A5BF63 /* DOHDesignAttributeContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDesignAttributeContentView.m; sourceTree = "<group>"; };
+		EFA2F211202D3F650036CBE4 /* DOHDesignAttributeContentTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHDesignAttributeContentTableView.h; sourceTree = "<group>"; };
+		EFA2F212202D3F650036CBE4 /* DOHDesignAttributeContentTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHDesignAttributeContentTableView.m; sourceTree = "<group>"; };
 		EFB056A1201DB02B005C2803 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EFB056A2201DB312005C2803 /* DOHSoftwareFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOHSoftwareFlowLayout.h; sourceTree = "<group>"; };
 		EFB056A3201DB312005C2803 /* DOHSoftwareFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHSoftwareFlowLayout.m; sourceTree = "<group>"; };
@@ -290,6 +293,8 @@
 				EF97C952202835AA00A5BF63 /* DOHDesignAttributeBaseView.m */,
 				EF97C954202835C500A5BF63 /* DOHDesignAttributeContentView.h */,
 				EF97C955202835C500A5BF63 /* DOHDesignAttributeContentView.m */,
+				EFA2F211202D3F650036CBE4 /* DOHDesignAttributeContentTableView.h */,
+				EFA2F212202D3F650036CBE4 /* DOHDesignAttributeContentTableView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -643,6 +648,7 @@
 				EF97C953202835AA00A5BF63 /* DOHDesignAttributeBaseView.m in Sources */,
 				634627962012B93F0050A410 /* DOHClickSettingCell.m in Sources */,
 				EF04AF52201D774300E36D41 /* DOHTabBarController.m in Sources */,
+				EFA2F213202D3F650036CBE4 /* DOHDesignAttributeContentTableView.m in Sources */,
 				EFC0C336200F2B6E006D4DED /* DOHHomeViewController.m in Sources */,
 				6346276C201245F30050A410 /* DOHButtonAttributeTableview.m in Sources */,
 				EF04AF55201D9B6500E36D41 /* DOHHomeCollectionView.m in Sources */,
